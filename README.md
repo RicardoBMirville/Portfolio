@@ -1,4 +1,4 @@
-# Welcome to my Porttfolio
+# Welcome to my Portfolio
 
 ### Education
  * MIT Applied Data science
