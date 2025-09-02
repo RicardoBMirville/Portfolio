@@ -1,0 +1,31 @@
+---
+layout: page
+title: Hi, I'm Ricardo Mirville
+subtitle: Data science & analytics — SQL • Python • Power BI
+permalink: /
+# Optional: show a banner (uncomment if you add an image file)
+# cover-img: /assets/img/hero.jpg
+---
+
+I help teams turn raw data into clear, decision-ready insights — building clean datasets, thoughtful visuals, and practical models.
+
+<div class="mt-3">
+  <a class="btn btn-primary btn-lg me-2" href="{{ '/assets/Ricardo_Mirville_Resume_2025.pdf' | relative_url }}">View my résumé</a>
+  <a class="btn btn-outline-primary btn-lg me-2" href="{{ '/projects' | relative_url }}">See projects</a>
+  <a class="btn btn-outline-secondary btn-lg" href="{{ '/contact' | relative_url }}">Contact</a>
+</div>
+
+---
+
+## What I’m good at
+- SQL & Python for analysis and automation
+- Power BI dashboards that tell the story
+- Data modeling, validation, and performance tuning (materialized views, indexing)
+- Translating stakeholder goals into clean metrics & reproducible work
+
+## Recent highlights
+- Streamlined dashboard performance with materialized views, cutting refresh time
+- Built reliable visualizations for web apps across global teams
+- Audited new implementations and fixed tricky data issues before they became incidents
+
+> Want a quick overview? Start with the <a href="{{ '/projects' | relative_url }}">Projects</a> page. 
