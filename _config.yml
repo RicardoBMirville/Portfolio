@@ -9,10 +9,15 @@ author: Ricardo Mirville
 # --- List of links in the navigation bar --- #
 ###############################################
 
+# ---- site/base paths ----
+url: "https://ricardobmirville.github.io"
+baseurl: "/Portfolio"        # repo name, with a leading slash
+
+# ---- navbar ----
 navbar-links:
   About: "about"
   Projects: "projects"
-  Resume: "/assets/Ricardo_Mirville_Resume_2025.pdf"
+  Resume: "{{ '/assets/Ricardo_Mirville_Resume_2025.pdf' | relative_url }}"
   Contact: "contact"
 
 ################
@@ -27,6 +32,7 @@ round-avatar: true
 # --- Footer social media links --- #
 #####################################
 
+ 
 social-network-links:
   email: "Ricardo.Mirville@gmail.com"
   github: rmirville
