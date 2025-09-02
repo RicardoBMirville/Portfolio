@@ -27,6 +27,7 @@ round-avatar: true
 # --- Footer social media links --- #
 #####################################
 
+ 
 social-network-links:
   email: "Ricardo.Mirville@gmail.com"
   github: rmirville
@@ -159,3 +160,9 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+
+  navbar-links:
+  Resume: "{{ '/assets/Ricardo_Mirville_Resume_2025.pdf' | relative_url }}"
+
+url: "https://ricardobmirville.github.io"
+baseurl: "/Portfolio"
