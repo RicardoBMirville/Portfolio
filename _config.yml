@@ -24,7 +24,7 @@ navbar-links:
 # --- Logo --- #
 ################
 
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/ricardo.png"
 round-avatar: true
 #title-img:
 
@@ -34,8 +34,8 @@ round-avatar: true
 
 social-network-links:
   email: "Ricardo.Mirville@gmail.com"
-  github: rmirville
-  # linkedin: your-linkedin-handle
+  github: RicardoBMirville
+  linkedin: ricardo-mirville-28474413a
 
 rss-description: Portfolio, projects, and case studies from Ricardo Mirville
 
