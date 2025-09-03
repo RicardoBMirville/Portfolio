@@ -1,5 +1,5 @@
 ---
-title: Ricardo Mirville
+title: Welcome to my portfolio!
 layout: page
 permalink: /
 ---

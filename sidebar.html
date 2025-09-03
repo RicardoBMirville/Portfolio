@@ -1,0 +1,17 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1><a href="{{ '/' | relative_url }}">Ricardo Mirville</a></h1>
+      <p class="lead">SQL • Python • Power BI</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == '/' or page.url == site.baseurl %} active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == '/about/' %} active{% endif %}" href="{{ '/about/' | relative_url }}">About</a>
+      <a class="sidebar-nav-item{% if page.url == '/contact/' %} active{% endif %}" href="{{ '/contact/' | relative_url }}">Contact</a>
+      <a class="sidebar-nav-item" href="https://www.linkedin.com/in/ricardo-mirville-28474413a" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+
+    <p>&copy; {{ site.time | date: '%Y' }}.</p>
+  </div>
+</div>
