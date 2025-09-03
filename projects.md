@@ -1,10 +1,10 @@
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
-
 ---
 title: Projects
 layout: page
 permalink: /projects/
 ---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+
 
 Below are representative projects. Each includes the **goal**, **approach**, and **impact**.
 
