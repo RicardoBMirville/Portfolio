@@ -95,5 +95,6 @@ url-pretty: "ricardobmirville.github.io"
 title
 
 site-css:
-  - "/assets/css/custom.css"
+  - "{{ '/assets/css/custom.css' | relative_url }}"
+
   
