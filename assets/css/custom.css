@@ -1,5 +1,21 @@
-@media (min-width: 992px) {
-  .sidebar-sticky { position: sticky; top: 1.25rem; }
+/* Light card styling for the Projects page */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
 }
-.img-avatar { border-radius: 9999px; box-shadow: 0 6px 20px rgba(0,0,0,.08); }
-.h-compact { margin-top: .25rem; margin-bottom: .25rem; }
+.projects .card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 14px 16px;
+  background: #fff;
+}
+
+/* Optional: circular avatars used in content */
+.img-avatar {
+  border-radius: 9999px;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  box-shadow: 0 6px 20px rgba(0,0,0,.08);
+}

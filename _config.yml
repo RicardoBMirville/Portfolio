@@ -1,64 +1,44 @@
-title: Ricardo Mirville — Portfolio
-author: Ricardo Mirville
-
-# project site paths
+# --- Site settings ---
+title: Ricardo Mirville
+tagline: Data Science & Analytics
+description: SQL • Python • Power BI
 url: "https://ricardobmirville.github.io"
-baseurl: "/Portfolio"
+baseurl: "/Portfolio"    # "" if this is your user site repo
 
-# navbar
-navbar-links:
-  About: "about"
-  Projects: "projects"
-  Resume: "{{ '/assets/Ricardo_Mirville_Resume_2025.pdf' | relative_url }}"
-  Contact: "contact"
+# --- Use Hyde (remote theme) ---
+remote_theme: poole/hyde
 
-# logo (optional)
-avatar: "/assets/img/ricardo.jpg"
-round-avatar: true
+# GitHub Pages-allowed plugins
+plugins:
+  - jekyll-remote-theme
 
-# footer socials
-social-network-links:
-  email: "Ricardo.Mirville@gmail.com"
+# Sidebar (Hyde picks up title/description automatically)
+author:
+  name: Ricardo Mirville
+  email: Ricardo.Mirville@gmail.com
   github: RicardoBMirville
   linkedin: ricardo-mirville-28474413a
+  # add more keys if you want; we’ll surface via the About/Projects pages
 
-# load your custom css
-site-css:
-  - "{{ '/assets/css/custom.css' | relative_url }}"
+# Optional: add your résumé link for easy reuse
+resume_path: "/assets/Ricardo_Mirville_Resume_2025.pdf"
 
-# jekyll basics (safe for GitHub Pages)
-timezone: "America/New_York"
-markdown: kramdown
-highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
+# Load a small custom stylesheet (optional)
+# Hyde includes its own styles; you can override below
+sass:
+  style: compressed
 
-kramdown:
-  input: GFM
-
+# Add a plain CSS file too (for tiny overrides)
 defaults:
   - scope:
       path: ""
-      type: "posts"
     values:
-      layout: "post"
-      comments: false
-      social-share: true
-  - scope:
-      path: ""
-    values:
-      layout: "page"
+      layout: page
 
-exclude:
-  - CHANGELOG.md
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - screenshot.png
-  - docs/
-
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+# If you want Hyde’s blog-style dates on posts only:
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: post
