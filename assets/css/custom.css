@@ -1,0 +1,10 @@
+/* Make the left column “stick” a bit on large screens */
+@media (min-width: 992px) {
+  .sidebar-sticky { position: sticky; top: 1.25rem; }
+}
+
+/* Round avatar + subtle shadow */
+.img-avatar { border-radius: 9999px; box-shadow: 0 6px 20px rgba(0,0,0,.08); }
+
+/* Tighten headings a touch */
+.h-compact { margin-top: .25rem; margin-bottom: .25rem; }
