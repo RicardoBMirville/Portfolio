@@ -164,4 +164,8 @@ exclude:
 
 plugins:
   - jekyll-paginate
+<<<<<<< HEAD
+=======
   - jekyll-sitemap
+
+>>>>>>> 4434f02e8803bb9a2457921005c0daf7a5a34109
