@@ -26,19 +26,16 @@ navbar-links:
 
 avatar: "/assets/img/avatar-icon.png"
 round-avatar: true
-#title-img: # (optional) e.g. "/assets/img/logo.svg"
+#title-img:
 
 #####################################
 # --- Footer social media links --- #
 #####################################
 
- 
 social-network-links:
   email: "Ricardo.Mirville@gmail.com"
   github: rmirville
-  # linkedin: your-linkedin-handle   # uncomment & set if you want it visible
-  # kaggle: your-kaggle
-  # stackoverflow: "userid/slug"
+  # linkedin: your-linkedin-handle
 
 rss-description: Portfolio, projects, and case studies from Ricardo Mirville
 
@@ -53,120 +50,5 @@ share-links-active:
   vk: false
   reddit: false
 
-url-pretty: "ricardomirville.github.io"
-title-on-all-pages: true
-excerpt_length: 50
-feed_show_excerpt: true
-feed_show_tags: true
-post_search: true
-edit_page_button: true
-navbar-var-length: true
-
-######################################
-# --- Colours / background image --- #
-######################################
-
-page-col: "#FFFFFF"
-text-col: "#1F2937"
-link-col: "#0EA5E9"
-hover-col: "#0284C7"
-navbar-col: "#F8FAFC"
-navbar-text-col: "#1F2937"
-navbar-border-col: "#E5E7EB"
-footer-col: "#F8FAFC"
-footer-text-col: "#6B7280"
-footer-link-col: "#1F2937"
-footer-hover-col: "#0284C7"
-
-# Optional background images
-#navbar-img:
-#footer-img:
-#page-img:
-
-# Optional custom CSS/JS
-#site-css:
-#  - "/assets/css/custom.css"
-#site-js:
-#  - "/assets/js/custom.js"
-
-#################################
-# --- Web Analytics Section --- #
-#################################
-
-#gtag: "G-XXXXXXXXXX"
-#cloudflare_analytics: ""
-#gtm: ""
-
-####################
-# --- Comments --- #
-####################
-
-# Choose one system below if you want comments on posts
-#disqus: ""
-#fb_comment_id: ""
-#commentbox: ""
-#utterances:
-#  repository:
-#  issue-term: title
-#  theme: github-light
-#giscus:
-#  hostname: giscus.app
-#  repository:
-#  repository-id:
-#  category: Announcements
-#  category-id:
-#  mapping: pathname
-#  reactions-enabled: 1
-#  emit-metadata: 0
-#  theme: light
-
-################
-# --- Misc --- #
-################
-
-date_format: "%B %-d, %Y"
-
-#################################################################################
-# --- Jekyll build settings --- #
-#################################################################################
-
-timezone: "America/New_York"
-markdown: kramdown
-highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
-
-kramdown:
-  input: GFM
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: false
-      social-share: true
-  - scope:
-      path: ""
-    values:
-      layout: "page"
-
-exclude:
-  - CHANGELOG.md
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - screenshot.png
-  - docs/
-
-plugins:
-  - jekyll-paginate
-<<<<<<< HEAD
-  - jekyll-sitemap
-=======
-  - jekyll-sitemap
-
->>>>>>> 4434f02e8803bb9a2457921005c0daf7a5a34109
+url-pretty: "ricardobmirville.github.io"
+title
