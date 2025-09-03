@@ -1,6 +1,6 @@
 ---
-title: Welcome to my portfolio!
-layout: page
+title: My Portfolio!
+layout: default
 permalink: /
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: About
-layout: page
+layout: default
 permalink: /about/
 ---
 <link rel="stylesheet" href="{{ '/public/css/poole.css' | relative_url }}">

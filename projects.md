@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: page
+layout: default
 permalink: /projects/
 ---
 <link rel="stylesheet" href="{{ '/public/css/poole.css' | relative_url }}">

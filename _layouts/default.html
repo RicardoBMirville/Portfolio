@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title | default: "Ricardo Mirville" }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Hyde CSS (copied into your repo under /public/css/...) -->
+    <link rel="stylesheet" href="{{ '/public/css/poole.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/public/css/hyde.css'  | relative_url }}">
+    <link rel="stylesheet" href="{{ '/public/css/syntax.css' | relative_url }}">
+
+    <!-- Your optional overrides -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  </head>
+  <body class="layout-reverse">
+
+    {% include sidebar.html %}
+
+    <div class="content container">
+      <div class="page">
+        {% if page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>
