@@ -8,6 +8,8 @@ permalink: /
 <link rel="stylesheet" href="{{ '/public/css/poole.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/public/css/hyde.css'  | relative_url }}">
 <link rel="stylesheet" href="{{ '/public/css/syntax.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
 
 <!-- Your overrides -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">

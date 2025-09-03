@@ -3,6 +3,11 @@ title: About
 layout: page
 permalink: /about/
 ---
+<link rel="stylesheet" href="{{ '/public/css/poole.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/public/css/hyde.css'  | relative_url }}">
+<link rel="stylesheet" href="{{ '/public/css/syntax.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
 
 **Hi, I'm Ricardo.** Welcome to my portfolio!
 

@@ -3,7 +3,12 @@ title: Projects
 layout: page
 permalink: /projects/
 ---
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+<link rel="stylesheet" href="{{ '/public/css/poole.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/public/css/hyde.css'  | relative_url }}">
+<link rel="stylesheet" href="{{ '/public/css/syntax.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+
 
 
 Below are representative projects. Each includes the **goal**, **approach**, and **impact**.
