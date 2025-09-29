@@ -9,26 +9,28 @@ permalink: /about/
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
 # My story
-**Hello, My name is Ricardo Mirville, but I go by Ricky these days.** A little bit about me. I pride myself in becoming a self-starter and an achiever. It all began when I made the concsious decision to change my college major from **Early Childhood Education**, to **Animal Science**. I call this *The Big Change*. The initial reason for chosing the route of early childhood education was because I was unsure of my calling and purpose in life. It seemed to be the easy option to be an educator in the town that I grew up in, but in the back of my mind, I knew it was life taking control and directing my path without my say. There was a moment when I said enough was enough, I sat down with myself to ponder on the thought of "what am I passionate about? What was it that I really wanted to do?" 
+My name is **Ricardo Mirville**, but I go by Ricky these days. A little bit about me: I pride myself on being a self-starter and an achiever. It all began when I made the conscious decision to change my college major from Early Childhood Education to Animal Science. I call this *The Big Change*.
 
-After sitting on it for a while, I realized that I throughly loved watching Ceasar Millan and how he trained dogs. With this eurika moment,
-I made the jump from Early Childhood Education to Animal Science with a concentration on Canines. At this point in time, I was very passionate about training dogs, and learning how dogs train. I graduated from State University of Agriculture and Technology at Cobleskill with a Bachelors of Science Degree. Directly after college I accepted an internship at Guiding Eyes for the Blind, a school desigend to train guide dogs and students on how to work with a guide dog (looks like education followed me in a different form).
+The initial reason for choosing Early Childhood Education was because I was unsure of my calling and purpose in life. It seemed like the easy option—to become an educator in the town where I grew up. But *deep down*, I knew it was life directing my path without my say. One day, I decided enough was enough. I sat down with myself and asked, “*What am I passionate about? What do I really want to do?*”
 
-Nothing brought me more joy than taking control of my life, getting to the exact place I wanted to be, and accomplishing my goals.
+After some reflection, I realized I thoroughly loved watching Cesar Millan and how he trained dogs. With this “eureka moment,” I switched from **Early Childhood Education** to **Animal Science** with a concentration in Canines. At the time, I was deeply passionate about dog training and understanding canine behavior. I went on to graduate from the State University of Agriculture and Technology at Cobleskill with a Bachelor of Science degree. Immediately after, I accepted an internship which then lead to 3 years of employment at Guiding Eyes for the Blind, a school designed to train guide dogs and teach students how to work with them (it seems education followed me in a different form).
 
-Fast forward a couple of years, I reached a point where my interest started to shift again. I became increasingly interested in data and tech. But with my non-technicall background, due to my love for animals, I knew it was going to be an uphill battle, but I have been here before so I knew I could do it. I reminded myself of the courage, the effort, and the work ethic that was required in order to take control of my life and work towards my goal. So the very first thing that I did was start learning a programming language, in this case it was SQL. Just learning a simple **SELECT** statment sparked such excitment in me that gave me the 'OK' to continue down this path (it was a whole different level when I finally understood **Joins**). After understanding the basics of SQL, my next goal was to acquire a Data Analyst Certifricate. I chose the <a href ="https://www.coursera.org/account/accomplishments/specialization/certificate/BFLRT7QBL846" target="_blank">Google Data Analyst Certifricate</a> hosted by Coursera to learn the profession of a Data Analyst. By the end of the course I had a good grasp of the role however, I still needed much practice. My education continued, and my skills improved. Eventually, I was able to land my first Data Analyst role as a Junior Database Analyst at Hay House Inc.
+Nothing brought me more joy than **taking control** of my life, reaching the place I wanted to be, and accomplishing my goals.
 
-I have been with Hay House for 2.5 years, and since then, I acquired 2 more certifrications: <a href ="https://learn.microsoft.com/en-us/users/ricardomirville-2244/credentials/1983f2e69424eacd" target="_blank">Microsoft Certified: Power BI Data Analyst Associate</a>
-And the <a href ="https://credentials.professional.mit.edu/adc6cc2b-7dc3-4ec6-a050-e7ef02624f2b#acc.XxjeBHtQ" target="_blank">Applied Data Science Program: Leveraging AI for Effective Decision-Making</a>
+Fast forward a few years, my interests began to shift again. I became increasingly drawn to **data and technology**. With my non-technical background in animal science, I knew it would be an uphill battle—but I had been here before, so I knew I could do it. I reminded myself of the courage, effort, and work ethic it took to take control of my life in the past, and I applied the same mindset here.
 
-As I look back on my journey, there are a few things that I Discovered **About Me**. 
-1. I will always be in control of my life
-2. I am always learning in order to evolve and perfect my craft
-4. I work hard always
-5. What I set my mind to, I always accomplish
+The very first step I took was learning a programming language—in this case, SQL. Just learning a simple **SELECT** statement sparked an excitement in me that gave me the green light to continue down this path (the feeling only grew when I finally understood **JOINs!**). After mastering the basics of SQL, my next goal was to earn a Data Analyst certificate. I chose the <a href ="https://www.coursera.org/account/accomplishments/specialization/certificate/BFLRT7QBL846" target="_blank">Google Data Analyst Certifricate</a> hosted by Coursera to gain professional training. By the end of the course, I had a solid grasp of the role, but I knew I still needed practice. So I kept learning, refining my skills, and building confidence. Eventually, I landed my first data role as a **Junior Database Analyst** at Hay House Inc.
 
-Thank you so much reading and learning about my journey.
-Lets connect!
+I have now been with Hay House for 2.5 years. Since then, I’ve earned two more certifications: <a href ="https://learn.microsoft.com/en-us/users/ricardomirville-2244/credentials/1983f2e69424eacd" target="_blank">The Microsoft Certified: Power BI Data Analyst Associate</a> and the <a href ="https://credentials.professional.mit.edu/adc6cc2b-7dc3-4ec6-a050-e7ef02624f2b#acc.XxjeBHtQ" target="_blank">Applied Data Science Program: Leveraging AI for Effective Decision-Making</a> from MIT.
+
+Looking back on my journey, I’ve discovered a few truths about myself:
+- **I will always be in control of my life.**
+- **I am constantly learning, evolving, and perfecting my craft.**
+- **I am a hard worker, always.**
+- **What I set my mind to, I accomplish.**
+
+Thank you so much for reading and learning about my journey. 
+***Let’s connect!***
 
 
 **Toolbox:** SQL, Python, Power BI, PostgreSQL, Excel, Jupyter, Git/GitHub.  
