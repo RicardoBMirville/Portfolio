@@ -1,5 +1,5 @@
 ---
-title: My Portfolio!
+title: Welcome to My Portfolio!
 layout: default
 permalink: /
 ---
@@ -25,3 +25,8 @@ building clean datasets, exploring data, and constructing thoughtful visuals.
 - SQL & Python for analysis and automation
 - Power BI dashboards that tell the story
 - Data modeling, validation, & performance tuning (materialized views, indexing)
+
+## Certifrications
+- <a href ="https://www.coursera.org/account/accomplishments/specialization/certificate/BFLRT7QBL846" target="_blank">Google Data Analyst Certifricate</a>
+- <a href ="https://learn.microsoft.com/en-us/users/ricardomirville-2244/credentials/1983f2e69424eacd" target="_blank">Microsoft Certified: Power BI Data Analyst Associate</a>
+- <a href ="https://credentials.professional.mit.edu/adc6cc2b-7dc3-4ec6-a050-e7ef02624f2b#acc.XxjeBHtQ" target="_blank">Applied Data Science Program: Leveraging AI for Effective Decision-Making</a>
