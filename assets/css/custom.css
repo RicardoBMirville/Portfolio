@@ -38,3 +38,11 @@
   height: 120px;
   margin-bottom: 1rem;
 }
+
+
+/* Force sidebar content to stick to the top */
+.sidebar .container.sidebar-sticky {
+  position: relative !important; /* override Hyde's sticky */
+  top: 0 !important;
+  transform: none !important;
+}
