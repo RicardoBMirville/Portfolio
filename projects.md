@@ -18,7 +18,8 @@ Below are representative projects. Each includes the **goal**, **approach**, and
   <p><strong>Approach:</strong> Explored and preprocessed a loan dataset with Python. Engineered financial and customer-related features (e.g., credit score, debt-to-income ratio, employment history). Trained multiple classification models (Logistic Regression, Random Forest, Gradient Boosting) and performed hyperparameter tuning with cross-validation. Evaluated models using AUC, precision, recall, and confusion matrices.</p>
   <p><strong>Outcome:</strong> Built a predictive pipeline that achieved strong accuracy and recall for defaulted loans, showing that machine learning can flag high-risk borrowers early. This provides a foundation for lenders to incorporate ML into risk assessment and loan approval workflows.</p>
   <p>
-    🔗 <a href="{{ '/assets/Capstone_Project_Loan_Default_Prediction_Ricardo_Mirville.html' | relative_url }}" target="_blank">Interactive Notebook (HTML Export)</a><br>
+   🔗 <a href="https://nbviewer.org/github/ricardobmirville/Portfolio/blob/main/assets/Loan_Default_Prediction.ipynb" target="_blank">View Report (HTML Rendered)</a>
+
     🔗 <a href="{{ '/assets/Capstone Project - Loan Default Prediction - Ricardo Mirville.ipynb' | relative_url }}" target="_blank">Full Code (Jupyter Notebook)</a>
   </p>
 </div>
