@@ -19,3 +19,22 @@
   object-fit: cover;
   box-shadow: 0 6px 20px rgba(0,0,0,.08);
 }
+
+/* Pin sidebar content to the very top (override Hyde defaults) */
+.sidebar .container.sidebar-sticky {
+  position: static;   /* disable sticky/centering */
+  top: auto;
+  transform: none;
+}
+
+/* Small spacing + tidy nav */
+.sidebar-about { margin-top: 0.75rem; }
+.sidebar-nav   { margin-top: 0.5rem; }
+.sidebar-nav-item { display: block; padding: .25rem 0; }
+
+/* (Optional) tweak avatar size/spacing if you want a bit smaller */
+.img-avatar {
+  width: 120px;       /* was 160px; pick what you like */
+  height: 120px;
+  margin-bottom: 1rem;
+}
