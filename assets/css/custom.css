@@ -34,8 +34,8 @@
 
 /* (Optional) tweak avatar size/spacing if you want a bit smaller */
 .img-avatar {
-  width: 120px;       /* was 160px; pick what you like */
-  height: 120px;
+  width: 160px;       /* was 160px; pick what you like */
+  height: 160px;
   margin-bottom: 1rem;
 }
 
@@ -46,3 +46,20 @@
   top: 0 !important;
   transform: none !important;
 }
+
+/* Patterned background for the main content area */
+.content {
+  position: relative;
+  z-index: 0;
+}
+
+.content::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* cover entire content */
+  background: url("{{ '/assets/img/cube_pattern.JPG' | relative_url }}") repeat;
+  background-size: 200px 200px;  /* adjust scale of cubes */
+  opacity: 0.15;                 /* faintness of pattern */
+  z-index: -1;                   /* keep it behind text */
+}
+
