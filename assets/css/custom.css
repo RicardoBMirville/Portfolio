@@ -47,10 +47,19 @@
   transform: none !important;
 }
 
-/* Patterned background for content area (right of sidebar) */
+/* Patterned background for the main content area */
 .content {
-  background: url("{{ '/assets/img/cube_pattern.jpg' | relative_url }}") repeat;
-  background-size: 200px 200px;   /* scale pattern, tweak as needed */
-  opacity: 0.15;                  /* makes the entire content faded */
+  position: relative;
+  z-index: 0;
+}
+
+.content::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* cover entire content */
+  background: url("{{ '/assets/img/cube_pattern.JPG' | relative_url }}") repeat;
+  background-size: 200px 200px;  /* adjust scale of cubes */
+  opacity: 0.15;                 /* faintness of pattern */
+  z-index: -1;                   /* keep it behind text */
 }
 
