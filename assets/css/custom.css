@@ -1,15 +1,52 @@
-/* Light card styling for the Projects page */
+/* Horizontal, wide project cards */
 .projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 16px;
+  display: flex;
+  flex-direction: column;   /* one wide card per row */
+  gap: 20px;
 }
+
 .projects .card {
+  display: flex;
+  flex-direction: row;      /* horizontal layout */
+  align-items: flex-start;
   border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  padding: 14px 16px;
+  border-radius: 12px;
   background: #fff;
+  padding: 18px 22px;
+  gap: 18px;
+  width: 100%;
 }
+
+.projects .card .card-body {
+  flex: 1;
+  min-width: 0;             /* prevent overflow */
+}
+
+.projects .card h3 {
+  margin: 0 0 .25rem 0;
+}
+
+.projects .card p {
+  margin: .5rem 0;
+}
+
+.projects .card .links a {
+  text-decoration: none;
+  border-bottom: 1px dashed #0ea5e9;
+}
+
+/* Optional: make them two-per-row on big screens */
+@media (min-width: 1100px) {
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .projects .card {
+    height: 100%;
+  }
+}
+
 
 /* Optional: circular avatars used in content */
 .img-avatar {
