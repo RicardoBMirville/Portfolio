@@ -66,39 +66,6 @@
 }
 
 
-/* Pattern background for the main content area (right side) */
-.content {
-  position: relative;
-  z-index: 0;
-}
-
-.content::before {
-  content: "";
-  position: absolute;
-  inset: 0; /* cover entire content area */
-  background: url("../img/clouds.svg") repeat;
-  background-size: 200px 200px; /* adjust cloud tile size */
-  opacity: 1.0;                /* 0.05 = very faint, 0.3 = stronger */
-  z-index: -1;                  /* keep behind text */
-  pointer-events: none;
-}
-
-/* Pattern background for the sidebar (left side) */
-.sidebar {
-  position: relative;
-  z-index: 0;
-}
-
-.sidebar::before {
-  content: "";
-  position: absolute;
-  inset: 0; /* cover entire sidebar */
-  background: url("../img/boxes.svg") repeat;
-  background-size: 200px 200px; /* adjust box tile size */
-  opacity: 1.0;                /* adjust faintness */
-  z-index: -1;                  /* keep behind sidebar content */
-  pointer-events: none;
-}
 
 
 
