@@ -48,9 +48,21 @@
 }
 
 
-/* Background */
+/* Patterned SVG background for the main content area (right side) */
 .content {
-  background: url("../img/clouds.svg") repeat;
-  background-size: 200px 200px;
+  position: relative;
+  z-index: 0;
 }
+
+.content::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* cover the entire content area */
+  background: url("../img/clouds.svg") repeat;
+  background-size: 200px 200px; /* adjust pattern size */
+  opacity: 0.15;                /* 0.05 = very faint, 0.3 = stronger */
+  z-index: -1;                  /* keep it behind text */
+  pointer-events: none;          /* makes sure links/buttons still work */
+}
+
 
