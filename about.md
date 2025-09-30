@@ -9,7 +9,7 @@ permalink: /about/
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
 # My story
-My name is **Ricardo Mirville**, but I go by Ricky these days. A little bit about me: I pride myself on being a self-starter and an achiever. It all began when I made the conscious decision to change my college major from Early Childhood Education to Animal Science. I call this *The Big Change*.
+My name is **Ricardo Mirville**, but you can call me Ricky! A little bit about me: I pride myself on being a self-starter and an achiever. It all began when I made the conscious decision to change my college major from Early Childhood Education to Animal Science. I call this ***The Big Change***.
 
 The initial reason for choosing Early Childhood Education was because I was unsure of my calling and purpose in life. It seemed like the easy option—to become an educator in the town where I grew up. But *deep down*, I knew it was life directing my path without my say. One day, I decided enough was enough. I sat down with myself and asked, “*What am I passionate about? What do I really want to do?*”
 
