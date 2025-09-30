@@ -53,13 +53,12 @@
   z-index: 0;
 }
 
-.content::before {
-  content: "";
-  position: absolute;
-  inset: 0; /* cover entire content */
-  background: url("{{ '/assets/img/cube_pattern.jpg' | relative_url }}") repeat;
-  background-size: 200px 200px;  /* adjust scale of cubes */
-  opacity: 1.0;                 /* faintness of pattern */
-  z-index: -1;                   /* keep it behind text */
+/* Patterned background for the main content area (right of sidebar) */
+.content {
+  /* first layer = translucent white; second layer = your pattern */
+  background:
+    linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+    url("../img/cube_pattern.jpg") repeat;
+  background-size: auto, 200px 200px; /* scale the pattern */
 }
 
