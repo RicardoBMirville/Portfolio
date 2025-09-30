@@ -34,8 +34,8 @@
 
 /* (Optional) tweak avatar size/spacing if you want a bit smaller */
 .img-avatar {
-  width: 120px;       /* was 160px; pick what you like */
-  height: 120px;
+  width: 160px;       /* was 160px; pick what you like */
+  height: 160px;
   margin-bottom: 1rem;
 }
 
