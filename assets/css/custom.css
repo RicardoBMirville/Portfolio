@@ -51,6 +51,6 @@
 .content {
   background: url("{{ '/assets/img/cube_pattern.jpg' | relative_url }}") repeat;
   background-size: 200px 200px;   /* scale pattern, tweak as needed */
-  opacity: 0.100;                  /* makes the entire content faded */
+  opacity: 0.15;                  /* makes the entire content faded */
 }
 
