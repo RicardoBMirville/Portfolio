@@ -46,3 +46,11 @@
   top: 0 !important;
   transform: none !important;
 }
+
+/* Patterned background for content area (right of sidebar) */
+.content {
+  background: url("{{ '/assets/img/cube_pattern.jpg' | relative_url }}") repeat;
+  background-size: 200px 200px;   /* scale pattern, tweak as needed */
+  opacity: 0.0;                  /* makes the entire content faded */
+}
+
