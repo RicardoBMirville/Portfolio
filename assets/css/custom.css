@@ -59,7 +59,7 @@
   inset: 0; /* cover entire content */
   background: url("{{ '/assets/img/cube_pattern.jpg' | relative_url }}") repeat;
   background-size: 200px 200px;  /* adjust scale of cubes */
-  opacity: 0.15;                 /* faintness of pattern */
+  opacity: 0.60;                 /* faintness of pattern */
   z-index: -1;                   /* keep it behind text */
 }
 
