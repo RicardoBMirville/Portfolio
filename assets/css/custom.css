@@ -57,8 +57,8 @@
 .content {
   /* first layer = translucent white; second layer = your pattern */
   background:
-    linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+    linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,1.)),
     url("../img/cube_pattern.jpg") repeat;
-  background-size: auto, 200px 200px; /* scale the pattern */
+  background-size: auto, 160px 160px; /* scale the pattern */
 }
 
