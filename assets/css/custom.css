@@ -78,7 +78,7 @@
   inset: 0; /* cover entire content area */
   background: url("../img/clouds.svg") repeat;
   background-size: 200px 200px; /* adjust cloud tile size */
-  opacity: 0.15;                /* 0.05 = very faint, 0.3 = stronger */
+  opacity: 1.0;                /* 0.05 = very faint, 0.3 = stronger */
   z-index: -1;                  /* keep behind text */
   pointer-events: none;
 }
@@ -95,7 +95,7 @@
   inset: 0; /* cover entire sidebar */
   background: url("../img/boxes.svg") repeat;
   background-size: 200px 200px; /* adjust box tile size */
-  opacity: 0.90;                /* adjust faintness */
+  opacity: 1.0;                /* adjust faintness */
   z-index: -1;                  /* keep behind sidebar content */
   pointer-events: none;
 }
