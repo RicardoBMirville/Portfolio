@@ -20,7 +20,6 @@ Below are representative projects. Each includes the **goal**, **approach**, and
   <p><strong>Outcome:</strong> Built a predictive pipeline that achieved strong accuracy and recall for defaulted loans, showing that machine learning can flag high-risk borrowers early. This provides a foundation for lenders to incorporate ML into risk assessment and loan approval workflows.</p>
   <p>
     🔗 <a href="https://nbviewer.org/github/RicardoBMirville/Portfolio/blob/main/assets/notebooks/loan_default_prediction.ipynb" target="_blank">View Report (HTML Rendered)</a><br>
-    🔗 <a href="https://colab.research.google.com/github/RicardoBMirville/Portfolio/blob/main/assets/notebooks/loan_default_prediction.ipynb" target="_blank">Run in Colab</a>
   </p>
 </div>
 
