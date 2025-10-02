@@ -1,33 +1,25 @@
-/* Horizontal, wide project cards */
+/* === Projects Page (original vertical cards) === */
 .projects {
-  display: flex;
-  flex-direction: column;   /* one wide card per row */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* responsive */
   gap: 20px;
 }
 
 .projects .card {
-  display: flex;
-  flex-direction: row;      /* horizontal layout */
-  align-items: flex-start;
   border: 1px solid #e5e7eb;
-  border-radius: 12px;
+  border-radius: 10px;
+  padding: 16px 20px;
   background: #fff;
-  padding: 18px 22px;
-  gap: 18px;
-  width: 100%;
-}
-
-.projects .card .card-body {
-  flex: 1;
-  min-width: 0;             /* prevent overflow */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .projects .card h3 {
-  margin: 0 0 .25rem 0;
+  margin-top: 0;
 }
 
 .projects .card p {
-  margin: .5rem 0;
+  margin: 0.75rem 0;
+  line-height: 1.55;
 }
 
 .projects .card .links a {
@@ -35,101 +27,33 @@
   border-bottom: 1px dashed #0ea5e9;
 }
 
-/* Optional: make them two-per-row on big screens */
-@media (min-width: 1100px) {
-  .projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-  .projects .card {
-    height: 100%;
-  }
-}
-
-
-/* Optional: circular avatars used in content */
+/* === Avatar Styling (sidebar profile image) === */
 .img-avatar {
   border-radius: 9999px;
   width: 160px;
   height: 160px;
   object-fit: cover;
-  box-shadow: 0 6px 20px rgba(0,0,0,.08);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  display: block;
+  margin: 0 auto 1rem;
 }
 
-/* Pin sidebar content to the very top (override Hyde defaults) */
+/* === Sidebar Adjustments === */
 .sidebar .container.sidebar-sticky {
   position: static;   /* disable sticky/centering */
   top: auto;
   transform: none;
 }
 
-/* Small spacing + tidy nav */
-.sidebar-about { margin-top: 0.75rem; }
-.sidebar-nav   { margin-top: 0.5rem; }
-.sidebar-nav-item { display: block; padding: .25rem 0; }
-
-/* (Optional) tweak avatar size/spacing if you want a bit smaller */
-.img-avatar {
-  width: 160px;       /* was 160px; pick what you like */
-  height: 160px;
-  margin-bottom: 1rem;
+.sidebar-about {
+  margin-top: 0.75rem;
 }
 
-
-/* Force sidebar content to stick to the top */
-.sidebar .container.sidebar-sticky {
-  position: relative !important; /* override Hyde's sticky */
-  top: 0 !important;
-  transform: none !important;
+.sidebar-nav {
+  margin-top: 0.5rem;
 }
 
-
-/* Patterned SVG background for the main content area (right side) */
-.content {
-  position: relative;
-  z-index: 0;
+.sidebar-nav-item {
+  display: block;
+  padding: .25rem 0;
 }
-
-.content::before {
-  content: "";
-  position: absolute;
-  inset: 0; /* cover the entire content area */
-  background: url("../img/clouds.svg") repeat;
-  background-size: 200px 200px; /* adjust pattern size */
-  opacity: 0.70;                /* 0.05 = very faint, 0.3 = stronger */
-  z-index: -1;                  /* keep it behind text */
-  pointer-events: none;          /* makes sure links/buttons still work */
-}
-
-
-/* Wide, report-style project cards */
-.projects {
-  display: flex;
-  flex-direction: column;
-  gap: 32px; /* space between cards */
-}
-
-.projects .card {
-  width: 100%;
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  background: #fff;
-  padding: 24px 28px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-}
-
-.projects .card h3 {
-  margin-top: 0;
-  font-size: 1.5rem;
-}
-
-.projects .card p {
-  line-height: 1.6;
-  margin: 0.75rem 0;
-}
-
-
-
-
-
