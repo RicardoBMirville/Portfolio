@@ -24,8 +24,4 @@ Below are representative projects. Each includes the **goal**, **approach**, and
       &nbsp;|&nbsp;
       🔗 <a href="https://github.com/RicardoBMirville/Portfolio/blob/main/assets/notebooks/loan_default_prediction.ipynb" target="_blank">Notebook on GitHub</a>
       &nbsp;|&nbsp;
-      🔗 <a href="https://colab.research.google.com/github/RicardoBMirville/Portfolio/blob/main/assets/notebooks/loan_default_prediction.ipynb" target="_blank">Run in Colab</a>
-    </p>
-  </div>
 
-</div>
