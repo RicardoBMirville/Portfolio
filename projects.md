@@ -19,7 +19,12 @@ Below are representative projects. Each includes the **goal**, **approach**, and
     <p><strong>Approach:</strong> Explored and preprocessed a loan dataset with Python. Engineered financial and customer-related features (e.g., credit score, debt-to-income ratio, employment history). Trained multiple classification models (Logistic Regression, Random Forest, Gradient Boosting) and performed hyperparameter tuning with cross-validation. Evaluated models using AUC, precision, recall, and confusion matrices.</p>
     <p><strong>Outcome:</strong> Built a predictive pipeline that achieved strong accuracy and recall for defaulted loans, showing that machine learning can flag high-risk borrowers early. This provides a foundation for lenders to incorporate ML into risk assessment and loan approval workflows.</p>
     <p>
-      🔗 <a href="https://nbviewer.org/github/RicardoBMirville/Portfolio/blob/main/assets/notebooks/loan_default_prediction.ipynb" target="_blank">View Report (HTML Rendered)</a>
+   <p class="links">
+      🔗 <a href="https://ricardobmirville.github.io/Portfolio/assets/notebooks/loan_default_prediction.html" target="_blank">View Report (HTML)</a>
+      &nbsp;|&nbsp;
+      🔗 <a href="https://github.com/RicardoBMirville/Portfolio/blob/main/assets/notebooks/loan_default_prediction.ipynb" target="_blank">Notebook on GitHub</a>
+      &nbsp;|&nbsp;
+      🔗 <a href="https://colab.research.google.com/github/RicardoBMirville/Portfolio/blob/main/assets/notebooks/loan_default_prediction.ipynb" target="_blank">Run in Colab</a>
     </p>
   </div>
 
