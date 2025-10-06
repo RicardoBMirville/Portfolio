@@ -71,6 +71,17 @@ Below are representative projects. Each includes the **goal**, **approach**, and
       🔗 <a href="https://medium.com/@rmirville/analyzing-customer-behavior-data-with-chat-gpt-as-my-stakeholder-part-2-41a9ccfac24a" target="_blank">Read the write-up on Medium</a>
     </p>
   </div>
+  
+  <!-- Project 5 -->
+  <div class="card">
+    <h3>California Mall Data — ChatGPT as the Stakeholder (Part 3)</h3>
+    <p><strong>Problem:</strong> Analyze California mall sales data to uncover store-level performance differences and identify factors driving higher revenue and customer satisfaction.</p>
+    <p><strong>Approach:</strong> Cleaned and joined multiple datasets in PostgreSQL/pgAdmin. Built SQL queries and summary tables to explore sales by store, category, and time period. Used ChatGPT to simulate stakeholder questions and iteratively refine metrics and visualizations for the dashboard.</p>
+    <p><strong>Outcome:</strong> Produced insights into top-performing stores and product categories, highlighting correlations between sales, customer satisfaction, and location demographics. Delivered recommendations to improve marketing focus and inventory management for underperforming malls.</p>
+    <p class="links">
+      🔗 <a href="https://medium.com/@rmirville/analyzing-california-mall-data-with-chatgpt-as-my-stakeholder-part-3-4213cca60148" target="_blank">Read the write-up on Medium</a>
+    </p>
+  </div>
 
 </div> <!-- /projects (SQL/Power BI) -->
 
