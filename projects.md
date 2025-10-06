@@ -24,7 +24,6 @@ Below are representative projects. Each includes the **goal**, **approach**, and
       &nbsp;|&nbsp;
       🔗 <a href="https://github.com/RicardoBMirville/Portfolio/blob/main/assets/notebooks/loan_default_prediction.ipynb" target="_blank">Notebook on GitHub</a>
       &nbsp;|&nbsp;
-   </p>
   </div>
 
 
@@ -40,7 +39,6 @@ Below are representative projects. Each includes the **goal**, **approach**, and
       &nbsp;|&nbsp;
       🔗 <a href="https://github.com/RicardoBMirville/Portfolio/blob/main/assets/notebooks/potential_customers_prediction.ipynb" target="_blank">Notebook on GitHub</a>
       &nbsp;|&nbsp;
-   </p>
   </div>
 
 
