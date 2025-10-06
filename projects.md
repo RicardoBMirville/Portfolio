@@ -24,8 +24,10 @@ Below are representative projects. Each includes the **goal**, **approach**, and
       &nbsp;|&nbsp;
       🔗 <a href="https://github.com/RicardoBMirville/Portfolio/blob/main/assets/notebooks/loan_default_prediction.ipynb" target="_blank">Notebook on GitHub</a>
       &nbsp;|&nbsp;
+   </p>
+  </div>
 
-<div class="projects">
+
 
   <div class="card">
     <h3>Extraa Learn: Predicting Lead Generation</h3>
@@ -38,6 +40,8 @@ Below are representative projects. Each includes the **goal**, **approach**, and
       &nbsp;|&nbsp;
       🔗 <a href="https://github.com/RicardoBMirville/Portfolio/blob/main/assets/notebooks/potential_customers_prediction.ipynb" target="_blank">Notebook on GitHub</a>
       &nbsp;|&nbsp;
+   </p>
+  </div>
 
 
 
