@@ -59,6 +59,5 @@ Below are representative projects. Each includes the **goal**, **approach**, and
     </p>
   </div>
   
-</h2>
 
 
