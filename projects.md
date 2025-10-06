@@ -25,7 +25,7 @@ Below are representative projects. Each includes the **goal**, **approach**, and
       🔗 <a href="https://github.com/RicardoBMirville/Portfolio/blob/main/assets/notebooks/loan_default_prediction.ipynb" target="_blank">Notebook on GitHub</a>
       &nbsp;|&nbsp;
 
-
+<div class="projects">
 
   <div class="card">
     <h3>Exxtra Learn: Predicting Lead Generation</h3>
