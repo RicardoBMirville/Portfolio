@@ -43,14 +43,16 @@ Below are representative projects. Each includes the **goal**, **approach**, and
     </p>
   </div>
 
-</div>
+</div> <!-- /projects (Python) -->
 
 
 <h2> SQL / Power BI Projects </h2>
 
+<div class="projects">
 
+  <!-- Project 3 -->
   <div class="card">
-    <h3>Supermarket Analytics — ChatGPT as the Stakeholder Part 1 </h3>
+    <h3>Supermarket Analytics — ChatGPT as the Stakeholder Part 1</h3>
     <p><strong>Problem:</strong> Evaluate performance across three supermarket branches using a real-world retail dataset, answering stakeholder questions about revenue, product lines, customer mix, and payment preferences.</p>
     <p><strong>Approach:</strong> Loaded and prepared the Kaggle “Supermarket” dataset in PostgreSQL/pgAdmin (deduping, null checks, typed columns, and a cleaned view). Answered stakeholder questions with SQL (CTEs for month-by-month revenue, aggregations for product-line gross income, customer type splits, and payment method distributions). Built a lightweight, filterable dashboard to explore results.</p>
     <p><strong>Outcome:</strong> Clear branch-level revenue comparisons, top-earning product lines, and customer patterns (e.g., e-wallet and cash as most popular payments), giving decision-makers a fast path to branch and category prioritization.</p>
@@ -58,6 +60,18 @@ Below are representative projects. Each includes the **goal**, **approach**, and
       🔗 <a href="https://medium.com/@rmirville/analyzing-supermarket-data-with-chatgpt-as-my-stakeholder-573a07ed8ad5" target="_blank">Read the write-up on Medium</a>
     </p>
   </div>
-  
+
+  <!-- Project 4 (add more as needed) -->
+  <div class="card">
+    <h3>Customer Behavior Analysis — ChatGPT as the Stakeholder (Part 2)</h3>
+    <p><strong>Problem:</strong> Extend the supermarket analytics project by diving deeper into customer purchase behavior to uncover actionable insights for business strategy and marketing optimization.</p>
+    <p><strong>Approach:</strong> Leveraged SQL queries and visualization techniques to analyze transaction-level data. Focused on identifying key customer segments, top-selling product lines, and temporal purchasing trends. Collaborated with ChatGPT to simulate stakeholder feedback loops and refine questions that guided data exploration.</p>
+    <p><strong>Outcome:</strong> Delivered a refined set of KPIs and charts highlighting peak sales periods, category profitability, and customer-type preferences. The analysis provided data-driven recommendations for improving revenue through targeted promotions and enhanced inventory planning.</p>
+    <p class="links">
+      🔗 <a href="https://medium.com/@rmirville/analyzing-customer-behavior-data-with-chat-gpt-as-my-stakeholder-part-2-41a9ccfac24a" target="_blank">Read the write-up on Medium</a>
+    </p>
+  </div>
+
+</div> <!-- /projects (SQL/Power BI) -->
 
 
