@@ -28,7 +28,7 @@ Below are representative projects. Each includes the **goal**, **approach**, and
 <div class="projects">
 
   <div class="card">
-    <h3>Exxtra Learn: Predicting Lead Generation</h3>
+    <h3>Extraa Learn: Predicting Lead Generation</h3>
     <p><strong>Problem:</strong> Extraa Learn is a start up company designed to offer programs to assist with learning and development. With a large number of leads being generated on a regular basis, one of the issues faced by ExtraaLearn is to identify which of the leads are more likely to convert so that they can allocate resources accordingly.</p>
     <p><strong>Approach:</strong> Explored and preprocessed a Extraa Learn's dataset with Python. Engineered financial and customer-related features (e.g., credit score, debt-to-income ratio, employment history). Trained multiple models including Decision Tree models and Random Forest Models and performed hyperparameter tuning with cross-validation. Evaluated models using AUC, precision, recall, and confusion matrices.</p>
     <p><strong>Outcome:</strong> Segment users based on important features and characteristics that influence conversion. Users who are professionals, spend significant time on the website, and have a high profile completion rate will receive targeted promotional content to encourage sign-ups.</p>
