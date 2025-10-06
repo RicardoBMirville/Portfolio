@@ -11,6 +11,8 @@ permalink: /projects/
 
 Below are representative projects. Each includes the **goal**, **approach**, and **impact**.
 
+<h2> Python Machine Learning Projects </h2> 
+
 <div class="projects">
 
   <!-- Project 1 -->
@@ -44,7 +46,7 @@ Below are representative projects. Each includes the **goal**, **approach**, and
 </div>
 
 
-<h2> SQL Projects </h2>
+<h2> SQL / Power BI Projects </h2>
 
 
   <div class="card">
