@@ -44,4 +44,19 @@ Below are representative projects. Each includes the **goal**, **approach**, and
 </div>
 
 
+<h2> SQL Projects </h2>
+
+
+  <div class="card">
+    <h3>Supermarket Analytics — ChatGPT as the Stakeholder Part 1 </h3>
+    <p><strong>Problem:</strong> Evaluate performance across three supermarket branches using a real-world retail dataset, answering stakeholder questions about revenue, product lines, customer mix, and payment preferences.</p>
+    <p><strong>Approach:</strong> Loaded and prepared the Kaggle “Supermarket” dataset in PostgreSQL/pgAdmin (deduping, null checks, typed columns, and a cleaned view). Answered stakeholder questions with SQL (CTEs for month-by-month revenue, aggregations for product-line gross income, customer type splits, and payment method distributions). Built a lightweight, filterable dashboard to explore results.</p>
+    <p><strong>Outcome:</strong> Clear branch-level revenue comparisons, top-earning product lines, and customer patterns (e.g., e-wallet and cash as most popular payments), giving decision-makers a fast path to branch and category prioritization.</p>
+    <p class="links">
+      🔗 <a href="https://medium.com/@rmirville/analyzing-supermarket-data-with-chatgpt-as-my-stakeholder-573a07ed8ad5" target="_blank">Read the write-up on Medium</a>
+    </p>
+  </div>
+  
+</h2>
+
 
